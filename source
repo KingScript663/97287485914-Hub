@@ -165,7 +165,7 @@ local Airflow = {
 	ScreenGui = AirflowUI,
 	Config = {
 		Scale = UDim2.new(0.1, 515, 0.1, (UserInputService.TouchEnabled and 345) or 395),
-		Hightlight = Color3.fromRGB(180, 60, 60),
+		Hightlight = Color3.fromRGB(255, 0, 0),
 		Logo = "http://www.roblox.com/asset/?id=118752982916680",
 		Keybind = "Delete",
 		Resizable = false,
@@ -1355,7 +1355,7 @@ do
 
 	mouse.Name = Airflow:RandomString()
 	mouse.Parent = ColorPick
-	mouse.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	mouse.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	mouse.BackgroundTransparency = 1.000
 	mouse.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	mouse.BorderSizePixel = 0
@@ -1369,7 +1369,7 @@ do
 	ColorSelect.Name = Airflow:RandomString()
 	ColorSelect.Parent = ColorPicker
 	ColorSelect.AnchorPoint = Vector2.new(1, 0)
-	ColorSelect.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	ColorSelect.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	ColorSelect.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	ColorSelect.BorderSizePixel = 0
 	ColorSelect.Position = UDim2.new(1, -10, 0, 10)
@@ -1388,7 +1388,7 @@ do
 	move.Name = Airflow:RandomString()
 	move.Parent = ColorSelect
 	move.AnchorPoint = Vector2.new(0.5, 0)
-	move.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	move.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	move.BackgroundTransparency = 1.000
 	move.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	move.BorderSizePixel = 0
@@ -1399,7 +1399,7 @@ do
 	left.Name = Airflow:RandomString()
 	left.Parent = move
 	left.AnchorPoint = Vector2.new(0, 0.5)
-	left.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	left.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	left.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	left.BorderSizePixel = 0
 	left.Position = UDim2.new(0, 0, 0.5, 0)
@@ -1410,7 +1410,7 @@ do
 	right.Name = Airflow:RandomString()
 	right.Parent = move
 	right.AnchorPoint = Vector2.new(1, 0.5)
-	right.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	right.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	right.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	right.BorderSizePixel = 0
 	right.Position = UDim2.new(1, 0, 0.5, 0)
@@ -1436,7 +1436,7 @@ do
 	Text.Name = Airflow:RandomString()
 	Text.Parent = Copy
 	Text.AnchorPoint = Vector2.new(0.5, 0.5)
-	Text.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	Text.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	Text.BackgroundTransparency = 1.000
 	Text.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Text.BorderSizePixel = 0
@@ -1445,7 +1445,7 @@ do
 	Text.ZIndex = 300
 	Text.Font = Enum.Font.GothamMedium
 	Text.Text = "Copy"
-	Text.TextColor3 = Color3.fromRGB(180, 60, 60)
+	Text.TextColor3 = Color3.fromRGB(255, 0, 0)
 	Text.TextSize = 14.000
 	Text.TextWrapped = true
 	Text.TextTransparency = 1;
@@ -1453,7 +1453,7 @@ do
 	Paste.Name = Airflow:RandomString()
 	Paste.Parent = ColorPicker
 	Paste.AnchorPoint = Vector2.new(1, 1)
-	Paste.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+	Paste.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	Paste.BackgroundTransparency = 0.800
 	Paste.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Paste.BorderSizePixel = 0
@@ -1468,7 +1468,7 @@ do
 	Text_2.Name = Airflow:RandomString()
 	Text_2.Parent = Paste
 	Text_2.AnchorPoint = Vector2.new(0.5, 0.5)
-	Text_2.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	Text_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	Text_2.BackgroundTransparency = 1.000
 	Text_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Text_2.BorderSizePixel = 0
@@ -1477,7 +1477,7 @@ do
 	Text_2.ZIndex = 300
 	Text_2.Font = Enum.Font.GothamMedium
 	Text_2.Text = "Paste"
-	Text_2.TextColor3 = Color3.fromRGB(180, 60, 60)
+	Text_2.TextColor3 = Color3.fromRGB(255, 0, 0)
 	Text_2.TextSize = 14.000
 	Text_2.TextWrapped = true
 	Text_2.TextTransparency = 1;
@@ -1794,7 +1794,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		LabelFrame.Name = Airflow:RandomString()
 		LabelFrame.Parent = element
 		LabelFrame.AnchorPoint = Vector2.new(0, 0.5)
-		LabelFrame.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		LabelFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		LabelFrame.BackgroundTransparency = 1.000
 		LabelFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		LabelFrame.BorderSizePixel = 0
@@ -1803,7 +1803,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		LabelFrame.ZIndex = 7
 		LabelFrame.Font = Enum.Font.GothamMedium
 		LabelFrame.Text = name
-		LabelFrame.TextColor3 = Color3.fromRGB(180, 60, 60)
+		LabelFrame.TextColor3 = Color3.fromRGB(255, 0, 0)
 		LabelFrame.TextSize = 13.000
 		LabelFrame.TextWrapped = true
 		LabelFrame.TextXAlignment = Enum.TextXAlignment.Left
@@ -1889,7 +1889,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.Name = Airflow:RandomString()
 		PText.Parent = ButtonFrame
 		PText.AnchorPoint = Vector2.new(0.5, 0.5)
-		PText.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		PText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
@@ -1898,7 +1898,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name
-		PText.TextColor3 = Color3.fromRGB(180, 60, 60)
+		PText.TextColor3 = Color3.fromRGB(255, 0, 0)
 		PText.TextSize = 14.000
 		PText.TextWrapped = true
 		PText.TextTransparency = 1
@@ -1998,7 +1998,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.Name = Airflow:RandomString()
 		PText.Parent = ToggleFrame
 		PText.AnchorPoint = Vector2.new(0, 0.5)
-		PText.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		PText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
@@ -2007,7 +2007,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name;
-		PText.TextColor3 = Color3.fromRGB(180, 60, 60)
+		PText.TextColor3 = Color3.fromRGB(255, 0, 0)
 		PText.TextSize = 13.000
 		PText.TextTransparency = 1
 		PText.TextWrapped = true
@@ -2239,7 +2239,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 		PText.Name = Airflow:RandomString()
 		PText.Parent = SliderFrame
-		PText.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		PText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
@@ -2248,7 +2248,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name
-		PText.TextColor3 = Color3.fromRGB(180, 60, 60)
+		PText.TextColor3 = Color3.fromRGB(255, 0, 0)
 		PText.TextSize = 13.000
 		PText.TextTransparency = 1
 		PText.TextWrapped = true
@@ -2257,7 +2257,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		VText.Name = Airflow:RandomString()
 		VText.Parent = SliderFrame
 		VText.AnchorPoint = Vector2.new(1, 0)
-		VText.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		VText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		VText.BackgroundTransparency = 1.000
 		VText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		VText.BorderSizePixel = 0
@@ -2266,7 +2266,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		VText.ZIndex = 7
 		VText.Font = Enum.Font.GothamMedium
 		VText.Text = tostring(config.Default)..tostring(config.Type)
-		VText.TextColor3 = Color3.fromRGB(180, 60, 60)
+		VText.TextColor3 = Color3.fromRGB(255, 0, 0)
 		VText.TextSize = 13.000
 		VText.TextWrapped = true
 		VText.TextXAlignment = Enum.TextXAlignment.Right
@@ -2288,7 +2288,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 		slide.Name = Airflow:RandomString()
 		slide.Parent = wheel
-		slide.BackgroundColor3 = windowConfig.Hightlight or Color3.fromRGB(180, 60, 60)
+		slide.BackgroundColor3 = windowConfig.Hightlight or Color3.fromRGB(255, 0, 0)
 		slide.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		slide.BorderSizePixel = 0
 		slide.Size = UDim2.new((config.Default - config.Min) / (config.Max - config.Min), 0, 1, 0)
@@ -2304,7 +2304,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		bth.Name = Airflow:RandomString()
 		bth.Parent = slide
 		bth.AnchorPoint = Vector2.new(1, 0.5)
-		bth.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		bth.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		bth.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		bth.BorderSizePixel = 0
 		bth.Position = UDim2.new(1, 5, 0.5, 0)
@@ -2317,7 +2317,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 		UIStroke.Thickness = 4.000
 		UIStroke.Transparency = 1
-		UIStroke.Color = Color3.fromRGB(180, 60, 60)
+		UIStroke.Color = Color3.fromRGB(255, 0, 0)
 		UIStroke.Parent = bth	
 
 		if OnChange:GetAttribute('Value') then
@@ -2593,7 +2593,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.Name = Airflow:RandomString()
 		PText.Parent = KeybindFrame
 		PText.AnchorPoint = Vector2.new(0, 0.5)
-		PText.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		PText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
@@ -2602,7 +2602,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name
-		PText.TextColor3 = Color3.fromRGB(180, 60, 60)
+		PText.TextColor3 = Color3.fromRGB(255, 0, 0)
 		PText.TextSize = 13.000
 		PText.TextTransparency = 1
 		PText.TextWrapped = true
@@ -2625,7 +2625,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		VText.Name = Airflow:RandomString()
 		VText.Parent = block
 		VText.AnchorPoint = Vector2.new(0.5, 0.5)
-		VText.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		VText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		VText.BackgroundTransparency = 1.000
 		VText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		VText.BorderSizePixel = 0
@@ -2634,7 +2634,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		VText.ZIndex = 7
 		VText.Font = Enum.Font.GothamMedium
 		VText.Text = GetItem(config.Default);
-		VText.TextColor3 = Color3.fromRGB(180, 60, 60)
+		VText.TextColor3 = Color3.fromRGB(255, 0, 0)
 		VText.TextSize = 13.000
 		VText.TextWrapped = true
 		VText.TextTransparency = 1;
@@ -2816,7 +2816,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 		TextboxFrame.Name = Airflow:RandomString()
 		TextboxFrame.Parent = element
-		TextboxFrame.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+		TextboxFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		TextboxFrame.BackgroundTransparency = 1
 		TextboxFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		TextboxFrame.BorderSizePixel = 0
@@ -2830,7 +2830,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.Name = Airflow:RandomString()
 		PText.Parent = TextboxFrame
 		PText.AnchorPoint = Vector2.new(0, 0.5)
-		PText.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		PText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
@@ -2839,7 +2839,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name
-		PText.TextColor3 = Color3.fromRGB(180, 60, 60)
+		PText.TextColor3 = Color3.fromRGB(255, 0, 0)
 		PText.TextSize = 13.000
 		PText.TextTransparency = 1
 		PText.TextWrapped = true
@@ -2862,7 +2862,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 		TextBox.Parent = block
 		TextBox.AnchorPoint = Vector2.new(0.5, 0.5)
-		TextBox.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		TextBox.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		TextBox.BackgroundTransparency = 1.000
 		TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		TextBox.BorderSizePixel = 0
@@ -2873,7 +2873,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		TextBox.Font = Enum.Font.GothamMedium
 		TextBox.PlaceholderText = config.Placeholder
 		TextBox.Text = config.Default
-		TextBox.TextColor3 = Color3.fromRGB(180, 60, 60)
+		TextBox.TextColor3 = Color3.fromRGB(255, 0, 0)
 		TextBox.TextSize = 10.000
 		TextBox.TextTransparency = 1;
 		TextBox.TextXAlignment = Enum.TextXAlignment.Left
@@ -3072,7 +3072,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 		ColorPickerFrame.Name = Airflow:RandomString()
 		ColorPickerFrame.Parent = element;
-		ColorPickerFrame.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+		ColorPickerFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		ColorPickerFrame.BackgroundTransparency = 1
 		ColorPickerFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		ColorPickerFrame.BorderSizePixel = 0
@@ -3085,7 +3085,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.Name = Airflow:RandomString()
 		PText.Parent = ColorPickerFrame
 		PText.AnchorPoint = Vector2.new(0, 0.5)
-		PText.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		PText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
@@ -3094,7 +3094,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name
-		PText.TextColor3 = Color3.fromRGB(180, 60, 60)
+		PText.TextColor3 = Color3.fromRGB(255, 0, 0)
 		PText.TextSize = 13.000
 		PText.TextTransparency = 1
 		PText.TextWrapped = true
@@ -3264,7 +3264,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 		PText.Name = Airflow:RandomString()
 		PText.Parent = ParagraphFrame
-		PText.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		PText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
@@ -3273,7 +3273,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name
-		PText.TextColor3 = Color3.fromRGB(180, 60, 60)
+		PText.TextColor3 = Color3.fromRGB(255, 0, 0)
 		PText.TextSize = 13.000
 		PText.TextTransparency = 1
 		PText.TextWrapped = true
@@ -3281,7 +3281,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 		SText.Name = Airflow:RandomString()
 		SText.Parent = ParagraphFrame
-		SText.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		SText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		SText.BackgroundTransparency = 1.000
 		SText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		SText.BorderSizePixel = 0
@@ -3290,7 +3290,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		SText.ZIndex = 7
 		SText.Font = Enum.Font.GothamMedium
 		SText.Text = config.Content or "";
-		SText.TextColor3 = Color3.fromRGB(180, 60, 60)
+		SText.TextColor3 = Color3.fromRGB(255, 0, 0)
 		SText.TextSize = 11.000
 		SText.TextTransparency = 1
 		SText.TextWrapped = true
@@ -3467,7 +3467,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.Name = Airflow:RandomString()
 		PText.Parent = DropdownFrame
 		PText.AnchorPoint = Vector2.new(0, 0.5)
-		PText.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		PText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
@@ -3476,7 +3476,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name
-		PText.TextColor3 = Color3.fromRGB(180, 60, 60)
+		PText.TextColor3 = Color3.fromRGB(255, 0, 0)
 		PText.TextSize = 13.000
 		PText.TextTransparency = 1
 		PText.TextWrapped = true
@@ -3500,7 +3500,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		VText.Name = Airflow:RandomString()
 		VText.Parent = block
 		VText.AnchorPoint = Vector2.new(0, 0.5)
-		VText.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		VText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		VText.BackgroundTransparency = 1.000
 		VText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		VText.BorderSizePixel = 0
@@ -3509,7 +3509,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		VText.ZIndex = 7
 		VText.Font = Enum.Font.GothamMedium
 		VText.Text = parse(config.Default)
-		VText.TextColor3 = Color3.fromRGB(180, 60, 60)
+		VText.TextColor3 = Color3.fromRGB(255, 0, 0)
 		VText.TextSize = 14.000
 		VText.TextWrapped = true
 		VText.TextXAlignment = Enum.TextXAlignment.Left
@@ -3518,7 +3518,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 		ImageLabel.Parent = block
 		ImageLabel.AnchorPoint = Vector2.new(1, 0.5)
-		ImageLabel.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		ImageLabel.BackgroundTransparency = 1.000
 		ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		ImageLabel.BorderSizePixel = 0
@@ -3558,7 +3558,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 		ScrollingFrame.Parent = DropdownInner
 		ScrollingFrame.Active = true
 		ScrollingFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-		ScrollingFrame.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		ScrollingFrame.BackgroundTransparency = 1.000
 		ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		ScrollingFrame.BorderSizePixel = 0
@@ -3628,7 +3628,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 					InputButton.Name = Airflow:RandomString()
 					InputButton.Parent = ScrollingFrame;
-					InputButton.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+					InputButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 					InputButton.BackgroundTransparency = 1.000
 					InputButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 					InputButton.BorderSizePixel = 0
@@ -3636,7 +3636,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 					InputButton.ZIndex = 105
 					InputButton.Font = Enum.Font.GothamMedium
 					InputButton.Text = string.rep(" ",2)..tostring(v)
-					InputButton.TextColor3 = Color3.fromRGB(180, 60, 60)
+					InputButton.TextColor3 = Color3.fromRGB(255, 0, 0)
 					InputButton.TextSize = 14.000
 					InputButton.TextTransparency = 0.5
 					InputButton.TextXAlignment = Enum.TextXAlignment.Left
@@ -3678,7 +3678,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 
 					InputButton.Name = Airflow:RandomString()
 					InputButton.Parent = ScrollingFrame;
-					InputButton.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+					InputButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 					InputButton.BackgroundTransparency = 1.000
 					InputButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 					InputButton.BorderSizePixel = 0
@@ -3686,7 +3686,7 @@ function Airflow:Elements(element : Frame,OnChange : BindableEvent , windowConfi
 					InputButton.ZIndex = 105
 					InputButton.Font = Enum.Font.GothamMedium
 					InputButton.Text = string.rep(" ",2)..tostring(v)
-					InputButton.TextColor3 = Color3.fromRGB(180, 60, 60)
+					InputButton.TextColor3 = Color3.fromRGB(255, 0, 0)
 					InputButton.TextSize = 14.000
 					InputButton.TextTransparency = 0.5
 					InputButton.TextXAlignment = Enum.TextXAlignment.Left
@@ -4132,7 +4132,7 @@ function Airflow:Init(config)
 
 	TabElements.Name = Airflow:RandomString()
 	TabElements.Parent = MainFrame
-	TabElements.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	TabElements.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	TabElements.BackgroundTransparency = 1.000
 	TabElements.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	TabElements.BorderSizePixel = 0
@@ -4142,7 +4142,7 @@ function Airflow:Init(config)
 
 	TabInputs.Name = Airflow:RandomString()
 	TabInputs.Parent = MainFrame
-	TabInputs.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	TabInputs.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	TabInputs.BackgroundTransparency = 1.000
 	TabInputs.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	TabInputs.BorderSizePixel = 0
@@ -4155,7 +4155,7 @@ function Airflow:Init(config)
 	ListInputs.Parent = TabInputs
 	ListInputs.Active = true
 	ListInputs.AnchorPoint = Vector2.new(0.5, 0.5)
-	ListInputs.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	ListInputs.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	ListInputs.BackgroundTransparency = 1.000
 	ListInputs.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	ListInputs.BorderSizePixel = 0
@@ -4225,7 +4225,7 @@ function Airflow:Init(config)
 
 	Icon.Name = Airflow:RandomString()
 	Icon.Parent = Headers
-	Icon.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	Icon.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	Icon.BackgroundTransparency = 1.000
 	Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Icon.BorderSizePixel = 0
@@ -4252,7 +4252,7 @@ function Airflow:Init(config)
 
 	static.Name = Airflow:RandomString()
 	static.Parent = WindowFrame
-	static.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	static.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	static.BackgroundTransparency = 1.000
 	static.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	static.BorderSizePixel = 0
@@ -4303,7 +4303,7 @@ function Airflow:Init(config)
 
 		InputElement.Name = Airflow:RandomString()
 		InputElement.Parent = ListInputs;
-		InputElement.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		InputElement.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		InputElement.BackgroundTransparency = 1
 		InputElement.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		InputElement.BorderSizePixel = 0
@@ -4332,7 +4332,7 @@ function Airflow:Init(config)
 		PText.Name = Airflow:RandomString()
 		PText.Parent = InputElement
 		PText.AnchorPoint = Vector2.new(0, 0.5)
-		PText.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		PText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		PText.BackgroundTransparency = 1.000
 		PText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		PText.BorderSizePixel = 0
@@ -4341,7 +4341,7 @@ function Airflow:Init(config)
 		PText.ZIndex = 7
 		PText.Font = Enum.Font.GothamMedium
 		PText.Text = config.Name;
-		PText.TextColor3 = Color3.fromRGB(180, 60, 60)
+		PText.TextColor3 = Color3.fromRGB(255, 0, 0)
 		PText.TextSize = 13.000
 		PText.TextWrapped = true
 		PText.TextXAlignment = Enum.TextXAlignment.Left
@@ -4366,7 +4366,7 @@ function Airflow:Init(config)
 		ListElemants.Name = Airflow:RandomString()
 		ListElemants.Parent = TabElements;
 		ListElemants.AnchorPoint = Vector2.new(0.5, 0.5)
-		ListElemants.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		ListElemants.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		ListElemants.BackgroundTransparency = 1.000
 		ListElemants.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		ListElemants.BorderSizePixel = 0
@@ -4378,7 +4378,7 @@ function Airflow:Init(config)
 		ListLeft.Parent = ListElemants
 		ListLeft.Active = true
 		ListLeft.AnchorPoint = Vector2.new(0.5, 0.5)
-		ListLeft.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		ListLeft.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		ListLeft.BackgroundTransparency = 1.000
 		ListLeft.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		ListLeft.BorderSizePixel = 0
@@ -4400,7 +4400,7 @@ function Airflow:Init(config)
 		ListRight.Parent = ListElemants
 		ListRight.Active = true
 		ListRight.AnchorPoint = Vector2.new(0.5, 0.5)
-		ListRight.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		ListRight.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		ListRight.BackgroundTransparency = 1.000
 		ListRight.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		ListRight.BorderSizePixel = 0
@@ -4430,7 +4430,7 @@ function Airflow:Init(config)
 
 		DisabledText.Parent = ListElemants
 		DisabledText.AnchorPoint = Vector2.new(0.5, 0.5)
-		DisabledText.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		DisabledText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		DisabledText.BackgroundTransparency = 1.000
 		DisabledText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		DisabledText.BorderSizePixel = 0
@@ -4439,7 +4439,7 @@ function Airflow:Init(config)
 		DisabledText.ZIndex = 5
 		DisabledText.Font = Enum.Font.GothamMedium
 		DisabledText.Text = ""
-		DisabledText.TextColor3 = Color3.fromRGB(180, 60, 60)
+		DisabledText.TextColor3 = Color3.fromRGB(255, 0, 0)
 		DisabledText.TextSize = 15.000
 		DisabledText.TextTransparency = 1
 		DisabledText.TextWrapped = true
@@ -4600,7 +4600,7 @@ function Airflow:Init(config)
 
 			Section.Name = Airflow:RandomString()
 			Section.Parent = (string.lower(config.Position) == "left" and ListLeft) or ListRight;
-			Section.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+			Section.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Section.BackgroundTransparency = 1.000
 			Section.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			Section.BorderSizePixel = 0
@@ -4610,7 +4610,7 @@ function Airflow:Init(config)
 			LabelFrame.Name = Airflow:RandomString()
 			LabelFrame.Parent = Section
 			LabelFrame.AnchorPoint = Vector2.new(0, 0.5)
-			LabelFrame.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+			LabelFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			LabelFrame.BackgroundTransparency = 1.000
 			LabelFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			LabelFrame.BorderSizePixel = 0
@@ -4619,7 +4619,7 @@ function Airflow:Init(config)
 			LabelFrame.ZIndex = 7
 			LabelFrame.Font = Enum.Font.GothamMedium
 			LabelFrame.Text = config.Name
-			LabelFrame.TextColor3 = Color3.fromRGB(180, 60, 60)
+			LabelFrame.TextColor3 = Color3.fromRGB(255, 0, 0)
 			LabelFrame.TextSize = 13.000
 			LabelFrame.TextWrapped = true
 			LabelFrame.TextXAlignment = Enum.TextXAlignment.Left
@@ -4847,7 +4847,7 @@ function Airflow:Init(config)
 		SelectedHighlighter.Name = "SelectedHighlighter"
 		SelectedHighlighter.Parent = IconHost
 		SelectedHighlighter.AnchorPoint = Vector2.new(0.5, 0.5)
-		SelectedHighlighter.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		SelectedHighlighter.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		SelectedHighlighter.BackgroundTransparency = 0.850
 		SelectedHighlighter.BorderSizePixel = 0
 		SelectedHighlighter.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -4861,7 +4861,7 @@ function Airflow:Init(config)
 		Highlighter.Name = "Highlighter"
 		Highlighter.Parent = IconHost
 		Highlighter.AnchorPoint = Vector2.new(0.5, 0.5)
-		Highlighter.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		Highlighter.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		Highlighter.BackgroundTransparency = 0.850
 		Highlighter.BorderSizePixel = 0
 		Highlighter.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -4912,7 +4912,7 @@ function Airflow:Init(config)
 		Resize.Name = Airflow:RandomString();
 		Resize.Parent = WindowFrame
 		Resize.AnchorPoint = Vector2.new(0.5, 0.5)
-		Resize.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		Resize.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		Resize.BackgroundTransparency = 1.000
 		Resize.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Resize.BorderSizePixel = 0
@@ -5239,7 +5239,7 @@ function Airflow:DrawList(config)
 
 	Icon.Name = Airflow:RandomString()
 	Icon.Parent = Headers
-	Icon.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	Icon.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	Icon.BackgroundTransparency = 1.000
 	Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Icon.BorderSizePixel = 0
@@ -5253,7 +5253,7 @@ function Airflow:DrawList(config)
 
 	WindowName.Name = Airflow:RandomString()
 	WindowName.Parent = Headers
-	WindowName.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	WindowName.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	WindowName.BackgroundTransparency = 1.000
 	WindowName.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	WindowName.BorderSizePixel = 0
@@ -5261,13 +5261,13 @@ function Airflow:DrawList(config)
 	WindowName.ZIndex = 122
 	WindowName.Font = Enum.Font.GothamMedium
 	WindowName.Text = config.Name
-	WindowName.TextColor3 = Color3.fromRGB(180, 60, 60)
+	WindowName.TextColor3 = Color3.fromRGB(255, 0, 0)
 	WindowName.TextSize = 15.000
 	WindowName.TextTransparency = 1
 
 	static.Name = Airflow:RandomString()
 	static.Parent = ListFrame
-	static.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	static.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	static.BackgroundTransparency = 1.000
 	static.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	static.BorderSizePixel = 0
@@ -5288,7 +5288,7 @@ function Airflow:DrawList(config)
 		local value = Instance.new("TextLabel")
 
 		Frame.Parent = MainFrame
-		Frame.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		Frame.BackgroundTransparency = 1.000
 		Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Frame.BorderSizePixel = 0
@@ -5298,7 +5298,7 @@ function Airflow:DrawList(config)
 		name.Name = Airflow:RandomString()
 		name.Parent = Frame
 		name.AnchorPoint = Vector2.new(0, 0.5)
-		name.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		name.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		name.BackgroundTransparency = 1.000
 		name.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		name.BorderSizePixel = 0
@@ -5307,14 +5307,14 @@ function Airflow:DrawList(config)
 		name.ZIndex = 125
 		name.Font = Enum.Font.GothamMedium
 		name.Text = config.Key
-		name.TextColor3 = Color3.fromRGB(180, 60, 60)
+		name.TextColor3 = Color3.fromRGB(255, 0, 0)
 		name.TextSize = 14.000
 		name.TextXAlignment = Enum.TextXAlignment.Left
 
 		value.Name = Airflow:RandomString()
 		value.Parent = Frame
 		value.AnchorPoint = Vector2.new(1, 0.5)
-		value.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		value.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		value.BackgroundTransparency = 1.000
 		value.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		value.BorderSizePixel = 0
@@ -5323,7 +5323,7 @@ function Airflow:DrawList(config)
 		value.ZIndex = 125
 		value.Font = Enum.Font.GothamMedium
 		value.Text = config.Value
-		value.TextColor3 = Color3.fromRGB(180, 60, 60)
+		value.TextColor3 = Color3.fromRGB(255, 0, 0)
 		value.TextSize = 13.000
 		value.TextTransparency = 0.500
 		value.TextXAlignment = Enum.TextXAlignment.Right
@@ -5403,7 +5403,7 @@ do
 	Notifier.Name = Airflow:RandomString()
 	Notifier.Parent = Airflow.ScreenGui
 	Notifier.AnchorPoint = Vector2.new(1, 0)
-	Notifier.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	Notifier.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	Notifier.BackgroundTransparency = 1.000
 	Notifier.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Notifier.BorderSizePixel = 0
@@ -5430,7 +5430,7 @@ do
 		local Content = Instance.new("TextLabel")
 
 		Frame.Parent = Notifier
-		Frame.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		Frame.BackgroundTransparency = 1.000
 		Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Frame.BorderSizePixel = 0
@@ -5455,7 +5455,7 @@ do
 
 		static.Name = Airflow:RandomString()
 		static.Parent = MainFrame
-		static.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		static.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		static.BackgroundTransparency = 1.000
 		static.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		static.BorderSizePixel = 0
@@ -5468,7 +5468,7 @@ do
 		Title.Name = Airflow:RandomString()
 		Title.Parent = MainFrame
 		Title.AnchorPoint = Vector2.new(0.5, 0)
-		Title.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		Title.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		Title.BackgroundTransparency = 1.000
 		Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Title.BorderSizePixel = 0
@@ -5477,7 +5477,7 @@ do
 		Title.ZIndex = 123
 		Title.Font = Enum.Font.GothamMedium
 		Title.Text = config.Title
-		Title.TextColor3 = Color3.fromRGB(180, 60, 60)
+		Title.TextColor3 = Color3.fromRGB(255, 0, 0)
 		Title.TextSize = 14.000
 		Title.TextXAlignment = Enum.TextXAlignment.Left
 		Title.TextTransparency = 1;
@@ -5489,7 +5489,7 @@ do
 		Content.Name = Airflow:RandomString()
 		Content.Parent = MainFrame
 		Content.AnchorPoint = Vector2.new(0.5, 0)
-		Content.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		Content.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		Content.BackgroundTransparency = 1.000
 		Content.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Content.BorderSizePixel = 0
@@ -5498,7 +5498,7 @@ do
 		Content.ZIndex = 123
 		Content.Font = Enum.Font.GothamMedium
 		Content.Text = config.Content
-		Content.TextColor3 = Color3.fromRGB(180, 60, 60)
+		Content.TextColor3 = Color3.fromRGB(255, 0, 0)
 		Content.TextSize = 12.000
 		Content.TextTransparency = 1
 		Content.TextXAlignment = Enum.TextXAlignment.Left
@@ -5661,7 +5661,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 	});
 	
 	UIStroke.Transparency = 0.680
-	UIStroke.Color = Color3.fromRGB(180, 60, 60)
+	UIStroke.Color = Color3.fromRGB(255, 0, 0)
 	UIStroke.Parent = ExeLoader
 
 	UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.87, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.88, Color3.fromRGB(177, 177, 177)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(177, 177, 177))}
@@ -5675,7 +5675,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 	Header.Name = "Header"
 	Header.Parent = ExeLoader
 	Header.AnchorPoint = Vector2.new(0.5, 0)
-	Header.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	Header.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	Header.BackgroundTransparency = 1.000
 	Header.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Header.BorderSizePixel = 0
@@ -5692,7 +5692,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 
 	Logo.Name = "Logo"
 	Logo.Parent = Header
-	Logo.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	Logo.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	Logo.BackgroundTransparency = 1.000
 	Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Logo.BorderSizePixel = 0
@@ -5705,14 +5705,14 @@ function Airflow:DrawLoader(loader_config : Loader)
 
 	HeaderText.Name = "HeaderText"
 	HeaderText.Parent = Header
-	HeaderText.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	HeaderText.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	HeaderText.BackgroundTransparency = 1.000
 	HeaderText.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	HeaderText.BorderSizePixel = 0
 	HeaderText.Size = UDim2.new(0, 83, 0, 20)
 	HeaderText.Font = Enum.Font.GothamMedium
 	HeaderText.Text = loader_config.Name
-	HeaderText.TextColor3 = Color3.fromRGB(180, 60, 60)
+	HeaderText.TextColor3 = Color3.fromRGB(255, 0, 0)
 	HeaderText.TextSize = 15.000
 	HeaderText.TextTransparency = 0.400
 
@@ -5749,7 +5749,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 	ScrollingFrame.Parent = TabBths
 	ScrollingFrame.Active = true
 	ScrollingFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	ScrollingFrame.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+	ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	ScrollingFrame.BackgroundTransparency = 1.000
 	ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	ScrollingFrame.BorderSizePixel = 0
@@ -5822,7 +5822,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 		GameLogo.Name = "GameLogo"
 		GameLogo.Parent = LoaderGame
 		GameLogo.AnchorPoint = Vector2.new(0, 0.5)
-		GameLogo.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		GameLogo.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		GameLogo.BackgroundTransparency = 1.000
 		GameLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		GameLogo.BorderSizePixel = 0
@@ -5838,7 +5838,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 		GameName.Name = "GameName"
 		GameName.Parent = LoaderGame
 		GameName.AnchorPoint = Vector2.new(0, 0.5)
-		GameName.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		GameName.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		GameName.BackgroundTransparency = 1.000
 		GameName.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		GameName.BorderSizePixel = 0
@@ -5847,7 +5847,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 		GameName.ZIndex = 7
 		GameName.Font = Enum.Font.GothamMedium
 		GameName.Text = loader_game.Name
-		GameName.TextColor3 = Color3.fromRGB(180, 60, 60)
+		GameName.TextColor3 = Color3.fromRGB(255, 0, 0)
 		GameName.TextSize = 13.000
 		GameName.TextTransparency = 0.300
 		GameName.TextWrapped = true
@@ -5883,7 +5883,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 
 		bthFrame.Name = "bthFrame"
 		bthFrame.Parent = TabFrame
-		bthFrame.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		bthFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		bthFrame.BackgroundTransparency = 1.000
 		bthFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		bthFrame.BorderSizePixel = 0
@@ -5911,7 +5911,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 		ScrollingFrame.Parent = versionLoaders
 		ScrollingFrame.Active = true
 		ScrollingFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-		ScrollingFrame.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		ScrollingFrame.BackgroundTransparency = 1.000
 		ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		ScrollingFrame.BorderSizePixel = 0
@@ -5926,7 +5926,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 
 		Description.Name = "Description"
 		Description.Parent = bthFrame
-		Description.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		Description.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		Description.BackgroundTransparency = 1.000
 		Description.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Description.BorderSizePixel = 0
@@ -5942,7 +5942,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 
 		Status.Name = "Status"
 		Status.Parent = bthFrame
-		Status.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		Status.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		Status.BackgroundTransparency = 1.000
 		Status.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Status.BorderSizePixel = 0
@@ -5957,7 +5957,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 
 		Value.Name = "Value"
 		Value.Parent = Status
-		Value.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		Value.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		Value.BackgroundTransparency = 1.000
 		Value.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Value.BorderSizePixel = 0
@@ -5971,7 +5971,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 
 		LastUpdate.Name = "LastUpdate"
 		LastUpdate.Parent = bthFrame
-		LastUpdate.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		LastUpdate.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		LastUpdate.BackgroundTransparency = 1.000
 		LastUpdate.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		LastUpdate.BorderSizePixel = 0
@@ -5986,7 +5986,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 
 		Value_2.Name = "Value"
 		Value_2.Parent = LastUpdate
-		Value_2.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+		Value_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		Value_2.BackgroundTransparency = 1.000
 		Value_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		Value_2.BorderSizePixel = 0
@@ -6010,7 +6010,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 		LoadButton.ZIndex = 4
 		LoadButton.Font = Enum.Font.GothamMedium
 		LoadButton.Text = "Load"
-		LoadButton.TextColor3 = Color3.fromRGB(180, 60, 60)
+		LoadButton.TextColor3 = Color3.fromRGB(255, 0, 0)
 		LoadButton.TextSize = 14.000
 
 		UIStroke_2.Transparency = 0.740
@@ -6130,7 +6130,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 			LoaderVersion.Parent = ScrollingFrame
 			LoaderVersion.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			LoaderVersion.BackgroundTransparency = 1.000
-			LoaderVersion.BorderColor3 = Color3.fromRGB(180, 60, 60)
+			LoaderVersion.BorderColor3 = Color3.fromRGB(255, 0, 0)
 			LoaderVersion.BorderSizePixel = 0
 			LoaderVersion.ClipsDescendants = true
 			LoaderVersion.Size = UDim2.new(1, 0, 0, 35)
@@ -6142,7 +6142,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 			GameName.Name = "GameName"
 			GameName.Parent = LoaderVersion
 			GameName.AnchorPoint = Vector2.new(0, 0.5)
-			GameName.BackgroundColor3 = Color3.fromRGB(180, 60, 60)
+			GameName.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			GameName.BackgroundTransparency = 1.000
 			GameName.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			GameName.BorderSizePixel = 0
@@ -6151,7 +6151,7 @@ function Airflow:DrawLoader(loader_config : Loader)
 			GameName.ZIndex = 7
 			GameName.Font = Enum.Font.GothamMedium
 			GameName.Text = loader_version.Name
-			GameName.TextColor3 = Color3.fromRGB(180, 60, 60)
+			GameName.TextColor3 = Color3.fromRGB(255, 0, 0)
 			GameName.TextSize = 13.000
 			GameName.TextTransparency = 0.300
 			GameName.TextWrapped = true
